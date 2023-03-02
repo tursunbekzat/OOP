@@ -5,7 +5,7 @@ public class EmployeeTest {
 
     public static void main(String[] args) {
         Employee user = new Employee();
-        Employee uesr2 = new Employee(3);
+        // Employee uesr2 = new Employee(3);
         // user.setEmpId(101);
         user.setName("Jane Smith");
         // user.setSsn ("012-34-5678");
