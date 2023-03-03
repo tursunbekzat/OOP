@@ -18,6 +18,7 @@ public class Director extends Manager {
         System.out.println(super.getSalary());
         System.out.println(super.getSsn());
     }
+    @Override
     public String toString(){
         return  super.toString() + String.format("\nbudget - %s", getter());
     }

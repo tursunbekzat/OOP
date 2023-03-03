@@ -31,7 +31,7 @@ public class EmployeeTest {
     }
     static void printEmployee(Employee e) {
         System.out.println("Employee type: " + e.getClass().getSimpleName());
-        e.toString();
+        System.out.println(e.toString());
     }
     static void printEmployee(Employee e, EmployeeStockPlan eStockPlan) {
         printEmployee(e);
