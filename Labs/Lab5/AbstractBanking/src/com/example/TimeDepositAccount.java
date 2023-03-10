@@ -2,12 +2,12 @@ package com.example;
 
 import java.util.Date;
 
-public class TimeDepositAccount extends Account1 {
+public class TimeDepositAccount extends Account {
     
     
     
     public TimeDepositAccount(double balance, Date maturityDate) {
-        this.balance = balance;
+        super(balance);
         this.maturityDate = maturityDate;
     }
     private final Date maturityDate;
@@ -20,6 +20,13 @@ public class TimeDepositAccount extends Account1 {
 
     public String getDescription() {
         return "Time Deposit Account " + maturityDate;
+    }
+
+
+    @Override
+    public boolean withdraw(double amount) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'withdraw'");
     }
     
 }
