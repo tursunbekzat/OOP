@@ -46,6 +46,6 @@ public class Employee {
 
     @Override
     public String toString(){
-        return String.format("id - %x  \nname - %s \nssn - %s \nsalary - %a", empId, name, ssn, salary);
+        return String.format("id - %x  \nname - %s \nssn - %s \nsalary - %f", empId, name, ssn, salary);
     }
 }

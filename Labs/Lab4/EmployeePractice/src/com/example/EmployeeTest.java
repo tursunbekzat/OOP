@@ -14,16 +14,18 @@ public class EmployeeTest {
         Director director = new Director("Susan Wheeler", 12, "099-45-2340", 120_567.36, "Global Marketing", 1_000_000.00);
 
         EmployeeStockPlan stockPlan = new EmployeeStockPlan();
-         EmployeeStockPlan stockPlanAdmin = new EmployeeStockPlan();
-         EmployeeStockPlan stockPlanEngineer = new EmployeeStockPlan();
-         EmployeeStockPlan stockPlanManager = new EmployeeStockPlan();
-         EmployeeStockPlan stockPlanDirector = new EmployeeStockPlan();
+//         EmployeeStockPlan stockPlanAdmin = new EmployeeStockPlan();
+//         EmployeeStockPlan stockPlanEngineer = new EmployeeStockPlan();
+//         EmployeeStockPlan stockPlanManager = new EmployeeStockPlan();
+//         EmployeeStockPlan stockPlanDirector = new EmployeeStockPlan();
 
+        System.out.println("Original method");
         printEmployee(admin);
         printEmployee(engineer);
         printEmployee(manager);
         printEmployee(director);
 
+        System.out.println("\n\nOriginal method");
         printEmployee(admin, stockPlan);
         printEmployee(engineer, stockPlan);
         printEmployee(manager, stockPlan);

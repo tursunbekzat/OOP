@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edab6506-60c6-457e-9218-01ac6422cfb0" name="Changes" comment="lab5">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/AbstractBankingMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Account1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/CheckingAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/CustomerReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/TimeDepositAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/AbstractBankingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Account1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/CustomerReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/TimeDepositAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/domain/Employee.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="134be776-1ed5-4a34-818c-0a4ae84e370f" />
+        <option name="url" value="https://github.com/tursunbekzat/OOP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MoivdhNb2odhvFFsyDgysYjqyw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/bekzat/Documents/OOP/Labs/Lab4"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edab6506-60c6-457e-9218-01ac6422cfb0" name="Changes" comment="" />
+      <created>1678440567165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678440567165</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
+  </component>
+</project>
