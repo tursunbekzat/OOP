@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edab6506-60c6-457e-9218-01ac6422cfb0" name="Changes" comment="lab5">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/.netbeans_automatic_build" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/.netbeans_update_resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/AbstractBankingMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Account1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/CheckingAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/CustomerReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/build/classes/com/example/TimeDepositAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/private/private.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/AbstractBankingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Account1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/CustomerReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractBanking/src/com/example/TimeDepositAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/EmployeePractice/src/com/example/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/EmployeeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/com/example/domain/Employee.class" afterDir="false" />
-    </list>
+    <list default="true" id="edab6506-60c6-457e-9218-01ac6422cfb0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/bekzat/Documents/OOP/Labs/Lab4"
+    "last_opened_file_path": "/home/bekzat/Documents/OOP/Labs/Lab5"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678440567165</updated>
     </task>
+    <task id="LOCAL-00001" summary="lab5">
+      <created>1678444283956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678444283956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
