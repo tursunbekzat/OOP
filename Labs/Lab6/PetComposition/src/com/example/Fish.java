@@ -4,6 +4,10 @@ public class Fish extends Animal implements Pet {
 
     private String name;
 
+    private Nameable nameable = new NameableImpl();
+    // name = this.getName();
+    // this.setName();
+
     public Fish() {
         super(0);
     }
@@ -28,9 +32,9 @@ public class Fish extends Animal implements Pet {
         System.out.println("Just keep swimming.");
     }
 
-    @Override
-    public void walk() {
-        super.walk();
-        System.out.println("Fish, of course, can't walk; they swim.");
-    }
+    // @Override
+    // public void walk() {
+    //     super.walk();
+    //     System.out.println("Fish, of course, can't walk; they swim.");
+    // }
 }

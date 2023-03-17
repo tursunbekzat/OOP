@@ -3,9 +3,12 @@ package com.example;
 public class Cat extends Animal implements Pet {
     
     private String name;
+    private Nameable nameable = new NameableImpl(); 
+    private Ambulatory ambulatory;
     
     public Cat() {
         this("Fluffy");
+        this.ambulatory = new AmbulatoryImpl(8);
     }
     
     public Cat(String name) {
