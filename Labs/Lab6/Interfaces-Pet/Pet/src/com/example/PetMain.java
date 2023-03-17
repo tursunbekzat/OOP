@@ -7,11 +7,11 @@ public class PetMain {
         //test a spider with a spider reference
         Spider s = new Spider();
         s.eat();
-        s.walk();
+        // s.walk();
         //test a spider with an animal reference
         a = new Spider();
         a.eat();
-        a.walk();
+        // a.walk();
     }
     
     public static void playWithAnimal(Animal a) {
