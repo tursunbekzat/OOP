@@ -10,7 +10,29 @@ public class ParenMatcher {
 
     public boolean processLine(String line) {
         // Your code here
-        return true;
+        stack.clear();
+        curLine = line.toCharArray();
+        for (char c : curLine) {
+            switch (c) {
+                case '(':
+                    stack.push(c);
+                    break;
+                case ')': {
+                    if (stack.size() > 0) {
+                        stack.pop();
+                    } else {
+                        return false;
+                    }
+                    break;
+                }
+            }
+        }
+        if (stack.size() > 0) {
+            return false; // Missing match invalid expression
+        } else {
+            return true; //
+        }
+        // return true;
     }
 
     public void processArray(String[] lines) {
