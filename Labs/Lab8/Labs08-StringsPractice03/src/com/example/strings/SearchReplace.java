@@ -25,10 +25,19 @@ public class SearchReplace {
             String line = "";
             int c = 1;
             // Create a Pattern object to match the entire line.
-
+            Pattern pattern1 = Pattern.compile("(<" + targetTag +
+                    ".*?>)(.*?)(</" + targetTag + ".*?>)");
             while ((line = reader.readLine()) != null) {
                 // Create a matcher
+                Matcher m = pattern1.matcher(line);
                 // Find a match
+                if (m.find()) {
+                    String newStart = replaceTag(m.group(1), targetTag, replaceTag);
+                    newStart = replaceAttribute(newStart, attribute, value);
+                    String newEnd = replaceTag(m.group(3), targetTag, replaceTag);
+                    String newLine = newStart + m.group(2) + newEnd;
+                    System.out.printf("%3d %s\n", c, newLine);
+                }
                 // Replace Start Tag
                 // Replace End Tag
                 // Replace the attribute
@@ -47,11 +56,24 @@ public class SearchReplace {
 
     public String replaceTag(String tag, String targetTag, String replaceTag) {
         // Your code here
-        return "";
+        Pattern p = Pattern.compile(targetTag); // targetTag is regex
+        Matcher m = p.matcher(tag); // tag is text to replace
+        if (m.find()) {
+            return m.replaceFirst(replaceTag); // swap target with replace
+        }
+        return targetTag;
+        // return "";
     }
 
     public String replaceAttribute(String tag, String attribute, String value) {
         // Your code here
-        return "";
+        Pattern p = Pattern.compile(attribute + "=" + "\".*?\"");
+        Matcher m = p.matcher(tag); // tag is text to replace
+        if (m.find()) {
+            return m.replaceFirst(attribute + "=" + "\"" + value + "\"");
+        }
+        return tag;
+
+        // return "";
     }
 }
