@@ -11,7 +11,9 @@ public class FindText {
 
     private String fileName = "gettys.html";
     // Create Pattern
+    private Pattern pattern;
     // Create Matcher
+    private Matcher m;
 
     public static void main(String[] args) {
         FindText find = new FindText();
@@ -24,10 +26,15 @@ public class FindText {
             int c = 1;
             while ((line = reader.readLine()) != null) {
                 // Generate a matcher based on Pattern
+                m = pattern.matcher(line);
                 // Search for text
+                if(m.find()){
+                    System.out.println(" " + c + " " + line);
+                }
                 // Print results
                 c++;
             }
+            pattern = Pattern.compile("<h4>");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
