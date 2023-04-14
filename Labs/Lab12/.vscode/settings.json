@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "Synchronized/src",
+        "12-Threadingpractices-NetworkThreading/NetworkThreading/src",
+        "ThreadInterrupted/src/main/java/com/example"
+    ]
+}
